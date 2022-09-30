@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.pngplay.com/wp-content/uploads/5/Wellness-Circle-PNG.png" type="image/x-icon">
+    <title>Работа с Flexbox</title>
+    <link rel="stylesheet" type="text/css" href="../../css/ex_01-08_pr8_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <a id="logo-ref" href="#"><img id="logo" src="https://www.pngplay.com/wp-content/uploads/5/Wellness-Circle-PNG.png" alt="Логотип"></a>
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#section-1">Раздел 1</a>
+            <a href="#section-2">Раздел 2</a>
+            <a href="#section-3">Раздел 3</a>
+            <a href="#section-4">Раздел 4</a>
+            <a href="#section-5">Раздел 5</a>
+            <a href="#section-6">Раздел 6</a>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="grid_body">
+            <div class="grid_item">1</div>
+            <div class="grid_item">2</div>
+            <div class="grid_item">3</div>
+            <div class="grid_item">4</div>
+            <div class="grid_item">5</div>
+            <div class="grid_item">6</div>
+            <div class="grid_item">7</div>
+            <div class="grid_item">8</div>
+            <div class="grid_item">9</div>
+            <div class="grid_item">10</div>
+            <div class="grid_item">11</div>
+            <div class="grid_item">12</div> 
+        </div>
+    </section>
+    <section id="section-1">
+        <div class="grid_body">
+            <div class="grid_item">
+                <img src="https://cdn-icons-png.flaticon.com/512/4585/4585249.png" alt="None" width="50" height="50">
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://cdn-icons-png.flaticon.com/512/4585/4585318.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://cdn-icons-png.flaticon.com/512/4585/4585720.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://cdn-icons-png.flaticon.com/512/4585/4585519.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://cdn-icons-png.flaticon.com/512/4585/4585652.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://cdn-icons-png.flaticon.com/512/4585/4585531.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://cdn-icons-png.flaticon.com/512/4585/4585523.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-2">
+        <div class="grid_body">
+            <div class="grid_item">
+                <h2>1</h2>
+                <h3>Заголовок 1</h3>
+                <p>Текст текст текст текст</p>
+            </div>
+            <div class="grid_item">
+                <h2>2</h2>
+                <h3>Заголовок 2</h3>
+                <p>Текст текст текст текст</p>
+            </div>
+            <div class="grid_item">
+                <h2>3</h2>
+                <h3>Заголовок 3</h3>
+                <p>Текст текст текст текст</p>
+            </div>
+            <div class="grid_item">
+                <h2>4</h2>
+                <h3>Заголовок 4</h3>
+                <p>Текст текст текст текст</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-3">
+        <div class="main">
+            <h1>Responsive Card Grid Layout</h1>
+            <ul class="cards">
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://100yakutia.ru/images/News/Gory_Yakutii.jpg"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Гора1</h2>
+                    <p class="card_text">Гора́ — форма рельефа, изолированное резкое поднятие местности с выраженными склонами и подножием или вершина в горной стране. 
+                        По характеру вершины выделяют пикообразные, куполообразные, платообразные и другие горы.</p>
+                    <button class="btn card_btn">Подробнее</button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://riosan.ru/wp-content/uploads/2021/06/gora-bogdo-1200x800-min.jpg"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Гора2</h2>
+                    <p class="card_text">Гора́ — форма рельефа, изолированное резкое поднятие местности с выраженными склонами и подножием или вершина в горной стране. 
+                        По характеру вершины выделяют пикообразные, куполообразные, платообразные и другие горы.</p>
+                    <button class="btn card_btn">Подробнее</button>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://c.wallhere.com/photos/79/d7/1200x800_px_Hiking_landscape_mist_Morning_mountains_nature_photography-1263873.jpg!d"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Гора3</h2>
+                    <p class="card_text">Гора́ — форма рельефа, изолированное резкое поднятие местности с выраженными склонами и подножием или вершина в горной стране. 
+                        По характеру вершины выделяют пикообразные, куполообразные, платообразные и другие горы.</p>
+                    <button class="btn card_btn">Подробнее</button>
+                  </div>
+                </div>
+              </li>
+    </section>
+
+    <section id="section-4">
+        <div class="calendar">
+            <div class="calendar__picture">
+              <h2>26, Понедельник</h2>
+              <h3>Сентябрь</h3>
+            </div>
+            <div class="calendar__date">
+              <div class="calendar__day">Пн</div>
+              <div class="calendar__day">Вт</div>
+              <div class="calendar__day">Ср</div>
+              <div class="calendar__day">Чт</div>
+              <div class="calendar__day">Пт</div>
+              <div class="calendar__day">Сб</div>
+              <div class="calendar__day">Вс</div>
+              <div class="calendar__number"></div>
+              <div class="calendar__number"></div>
+              <div class="calendar__number"></div>
+              <div class="calendar__number">1</div>
+              <div class="calendar__number">2</div>
+              <div class="calendar__number">3</div>
+              <div class="calendar__number">4</div>
+              <div class="calendar__number">5</div>
+              <div class="calendar__number">6</div>
+              <div class="calendar__number">7</div>
+              <div class="calendar__number">8</div>
+              <div class="calendar__number">9</div>
+              <div class="calendar__number">10</div>
+              <div class="calendar__number">11</div>
+              <div class="calendar__number">12</div>
+              <div class="calendar__number">13</div>
+              <div class="calendar__number">14</div>
+              <div class="calendar__number">15</div>
+              <div class="calendar__number">16</div>
+              <div class="calendar__number">17</div>
+              <div class="calendar__number">18</div>
+              <div class="calendar__number">19</div>
+              <div class="calendar__number">20</div>
+              <div class="calendar__number">21</div>
+              <div class="calendar__number">22</div>
+              <div class="calendar__number">23</div>
+              <div class="calendar__number">24</div>
+              <div class="calendar__number">25</div>
+              <div class="calendar__number calendar__number--current">26</div>
+              <div class="calendar__number">27</div>
+              <div class="calendar__number">28</div>
+              <div class="calendar__number">29</div>
+              <div class="calendar__number">30</div>
+            </div>
+          </div>
+    </section>
+
+    <section id="section-5">
+        <div class="grid_body">
+            <div class="grid_item">
+                <img src="https://www.pngmart.com/files/7/Python-PNG-File.png" alt="None" width="50" height="50">
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://www.pngall.com/wp-content/uploads/2016/05/Java-Free-Download-PNG.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://seeklogo.com/images/C/css-3-logo-023C1A7171-seeklogo.com.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://bashlogo.com/img/symbol/png/monochrome_light.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+            <div class="grid_item">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968509.png" alt="None" width="50" height="50">                
+                <p>Любой, написанный мною текст</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="section-6">
+        <div class="Login-Wrap">
+            <div class="Field Field--half">
+              <input type="text" class="Field-text" autocomplete="off" placeholder="Имя *" autofocus>
+              <label for="name" class="Field-label">Имя</label>
+            </div>
+            <div class="Field Field--half">
+              <input type="text" class="Field-text" autocomplete="off" placeholder="Фамилия *">
+              <label for="surname" class="Field-label">Фамилия</label>
+            </div>
+            <div class="Field Field--half">
+              <input type="text" class="Field-text" autocomplete="off" placeholder="E-mail *">
+              <label for="email" class="Field-label">E-mail</label>
+            </div>
+            <div class="Field Field--half">
+              <input type="number" class="Field-text" autocomplete="off" placeholder="Телефон *">
+              <label for="password" class="Field-label">Телефон</label>
+            </div>
+            <div class="Login-row">
+              <button class="Field-button Field-button--submit">Регистрация</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row primary">
+          <div class="column about">
+        
+          <h3>О нас</h3>
+        
+           <p>
+            MIREA. Найдется все. Со временем. Быть нашим клиентом почётно. Прекрасным о прекрасном.
+          </p>
+        
+          <div class="social">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-whatsapp"></i>
+          </div>
+        </div>
+        
+        <div class="column links">
+        <h3>Быстрые ссылки</h3>
+        
+         <ul>
+        
+          <li>
+           <a href="#faq">F.A.Q</a>
+          </li>
+          <li>
+           <a href="#cookies-policy">Кукис</a>
+          </li>
+          <li>
+           <a href="#terms-of-services">Условия обслуживания</a>
+          </li>
+          <li>
+           <a href="#support">Поддержка</a>
+          </li>
+         </ul>
+        
+        </div>
+        
+        
+        <div class="column links">
+          <h3>Магазин</h3>
+           <ul>
+            <li>
+             <a href="#faq">Телефоны</a>
+            </li>
+            <li>
+             <a href="#cookies-policy">Планшеты</a>
+            </li>
+            <li>
+            <a href="#terms-of-services">Ноутбуки</a>
+            </li>
+            <li>
+            <a href="#support">Компьютеры</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="column subscribe">
+         <h3>Обратная связь</h3>
+          <div>
+           <input type="email" placeholder="Ваш адрес электронной почты" />
+           <button>Отправить</button>
+          </div>
+        
+        </div>
+        
+        </div>
+    </footer>
+    
+        <footer class="new">2022© Student MIREA. ALL RIGHTS RESERVED</footer>
+</body>
+</html>

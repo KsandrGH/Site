@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.pngplay.com/wp-content/uploads/5/Wellness-Circle-PNG.png" type="image/x-icon">
+    <title>Работа с Flexbox</title>
+    <link rel="stylesheet" type="text/css" href="../../css/ex_01-09_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <a id="logo-ref" href="#"><img id="logo" src="https://www.pngplay.com/wp-content/uploads/5/Wellness-Circle-PNG.png" alt="Логотип"></a>
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#section-1">Раздел 1</a>
+            <a href="#section-2">Раздел 2</a>
+            <a href="#section-3">Раздел 3</a>
+            <a href="#section-4">Раздел 4</a>
+            <a href="#section-5">Раздел 5</a>
+            <a href="#section-6">Раздел 6</a>
+            <a href="#section-7">Раздел 7</a>
+            <a href="#section-8">Раздел 8</a>
+            <a href="#section-9">Раздел 9</a>
+            <a href="#section-10">Раздел 10</a>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="container">
+            <div class="box">
+              <span></span>
+              <div class="content">
+                <h2>Карточка 1</h2>
+                <p>Здесь должно быть что-то написано, но я пока не придумал что это будет.</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="box">
+              <span></span>
+              <div class="content">
+                <h2>Карточка 2</h2>
+                <p>Здесь должно быть что-то написано, но я пока не придумал что это будет.</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="box">
+              <span></span>
+              <div class="content">
+                <h2>Карточка 3</h2>
+                <p>Здесь должно быть что-то написано, но я пока не придумал что это будет.</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </div>
+          </div>          
+    </section>
+
+    <section id="section-1">
+        <div class="container">
+            <div class="card">
+                <img src="../img/fischsemmel.png" alt="Тут картинка" > <br>
+                <div class="text_cont">
+                    <h2>Гамбургер</h2>
+                    <p>
+                    Га́мбургер — это блюдо, обычно состоящее из котлеты из 
+                    измельченного мяса, как правило, говядины, помещенной 
+                    внутрь нарезанной булочки.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/sausage.png" alt="Тут картинка" > <br>
+                <div class="text_cont">
+                    <h2>Сосиска</h2>
+                    <p>
+                    Соси́ска — колбасное изделие, которое изготовляется из 
+                    рубленого варёного мяса или его заменителей.
+                    Представляет собой маленькую колбаску</p>
+                </div>  
+            </div>
+            <div class="card">
+                <img src="../img/hotdog.png" alt="Тут картинка" > <br>
+                <div class="text_cont">
+                    <h2>Хот-дог</h2>
+                    <p>
+                    Хот-дог — это блюдо, состоящее из жареной или приготовленной
+                    на пару сосиски, подаваемой в разрезе булочки.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-2">
+      <ul class="social_icons2">
+          <li><a href="#"><i class="fa fa-vk" aria-hidden="true"> </i></a> </li>
+          <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"> </i></a> </li>
+          <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"> </i></a> </li>
+          <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i> </i></a> </li>
+          <li><a href="#"><i class="fa fa-twitch" aria-hidden="true"> </i></a> </li>
+          
+      </ul>
+    </section>
+    
+    <section id="section-3">
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="box">
+        <div class="square" style="--i:0;"></div>
+        <div class="square" style="--i:1;"></div>
+        <div class="square" style="--i:2;"></div>
+        <div class="square" style="--i:3;"></div>
+        <div class="square" style="--i:4;"></div>
+        <div class="square" style="--i:5;"></div>
+        <div class="container_2">
+          <div class="form">
+            <h2>Логин</h2>
+              <div class="inputBox">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <div class="inputBox">
+                  <input type="submit" value="Логин">
+                  <p class="forget">Забыли пароль?
+                    <a href="#">Перейти</a>
+                  </p>
+                  <p class="forget">Ещё нет аккаунта?
+                    <a href="#">Зарегестрироваться</a>
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-4">
+      <button class="btn color">Hover me</button>
+    </section>
+    
+    <section id="section-5">
+      <div class="container5">
+        <div class="card5">
+          <div class="circle">
+            <h2>01</h2>
+          </div>
+          <div class="content5">
+            <p>Жёлтый — цвета электромагнитного излучения с длинами волн от 550 до 590 нм.</p>
+            <a href="#">Подробнее</a>
+          </div>
+        </div>
+        <div class="card5">
+          <div class="circle">
+            <h2>02</h2>
+          </div>
+          <div class="content5">
+            <p>Кра́сный — область цветов, соответствующая минимальным частотам электромагнитного излучения.</p>
+            <a href="#">Подробнее</a>
+          </div>
+        </div>
+        <div class="card5">
+          <div class="circle">
+            <h2>03</h2>
+          </div>
+          <div class="content5">
+            <p>Пурпурный цвет — один из группы неспектральных цветов.</p>
+            <a href="#">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-6">
+      <div class="card6">
+
+        <div class="imgBox">
+          <img src="https://www.pngplay.com/wp-content/uploads/13/Noise-Cancelling-Headphones-PNG-Images-HD.png"  class="trade1">
+        </div>
+        <div class="contentBox">
+          <h4>Беспроводные наушники</h4>
+          <h2 class="price">27000 ₽</h2>
+          <a href="#" class="buy">Купить</a>
+        </div>
+      
+      </div>
+    </section>
+
+    <section id="section-7">
+      <div class="card7">
+
+        <div class="imgBox">
+          <img src="https://www.pngplay.com/wp-content/uploads/9/Keyboard-PNG-HD-Quality.png"  class="trade2">
+        </div>
+        <div class="contentBox">
+          <h4>RGB Клавиатура</h4>
+          <h2 class="price">15000 ₽</h2>
+          <a href="#" class="buy">Купить</a>
+        </div>
+      
+      </div>
+    </section>
+
+    <section id="section-8">
+      <div class="card8">
+
+        <div class="imgBox">
+          <img src="https://www.pngplay.com/wp-content/uploads/6/Windows-Computer-Monitor-PNG-Clipart-Background.png"  class="trade3">
+        </div>
+        <div class="contentBox">
+          <h4>Монитор</h4>
+          <h2 class="price">54000 ₽</h2>
+          <a href="#" class="buy">Купить</a>
+        </div>
+      
+      </div>
+    </section>
+
+    <section id="section-9">
+      <div class="container9">
+        <div class="card9">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="content9">
+              <h2>01</h2>
+              <h3>Заголовок</h3>
+              <p>Здесь должно быть что-то написано, но мне лень придумывать.</p>
+              <a href="#">Подробнее</a>
+          </div>
+        </div>
+
+        <div class="card9">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="content9">
+              <h2>02</h2>
+              <h3>Заголовок</h3>
+              <p>Здесь должно быть что-то написано, но мне лень придумывать.</p>
+              <a href="#">Подробнее</a>
+          </div>
+        </div>
+
+        <div class="card9">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="content9">
+              <h2>03</h2>
+              <h3>Заголовок</h3>
+              <p>Здесь должно быть что-то написано, но мне лень придумывать.</p>
+              <a href="#">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="section-10">
+      <div class="container10">
+        <div class="cards10">
+          <div class="imgBx10">
+            <img src="https://data.cyclowiki.org/images/0/0d/Bram_cohen.jpg">
+          </div>
+        <div class="content10">
+          <div class="details10">
+            <h2>Абрагам (Брэм) Коен<br><span>Основатель BitTorrent</span></h2>
+              <ul class="social_icons10">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+              </ul>
+          </div>
+        </div>
+        </div>
+
+        <div class="cards10">
+          <div class="imgBx10">
+            <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/ece8a5b3-0e19-4880-82f6-e8885c82ffe6/280x420">
+          </div>
+        <div class="content10">
+          <div class="details10">
+            <h2>Сэр Тим Бернерс-Ли<br><span>Основатель HTTP</span></h2>
+              <ul class="social_icons10">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+              </ul>
+          </div>
+        </div>
+        </div>
+
+        <div class="cards10">
+          <div class="imgBx10">
+            <img src="https://wiki.spbu.ru/images/thumb/8/80/Knuth_donald.jpg/428px-Knuth_donald.jpg">
+          </div>
+        <div class="content10">
+          <div class="details10">
+            <h2>Дональд Кнут<br><span>Отец анализа алгоритмов</span></h2>
+              <ul class="social_icons10">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+              </ul>
+          </div>
+        </div>
+        </div>
+
+        <div class="cards10">
+          <div class="imgBx10">
+            <img src="https://dic.academic.ru/pictures/wiki/files/50/200px-beich.jpg">
+          </div>
+        <div class="content10">
+          <div class="details10">
+            <h2>Брендан Айк<br><span>Основатель языка JavaScript</span></h2>
+              <ul class="social_icons10">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+              </ul>
+          </div>
+        </div>
+        </div>
+
+        <div class="cards10">
+          <div class="imgBx10">
+            <img src="https://img-0.journaldunet.com/cnIkHJAAnhkExbl6ilcAcr2RIIA=/300x/smart/8a786737f6544cda9b40d709b590fdf7/ccmcms-jdn/10208774-4.jpg">
+          </div>
+        <div class="content10">
+          <div class="details10">
+            <h2>Соломон Хайкс<br><span>Основатель Docker</span></h2>
+              <ul class="social_icons10">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+              </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>2022© Student MIREA. ALL RIGHTS RESERVED</footer>
+</body>
+</html>
